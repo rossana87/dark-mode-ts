@@ -1,5 +1,4 @@
 import React from "react";
-import Button from "./Button";
 import useTheme from "../assets/context/useTheme";
 import Image from "../assets/Profile-pic.jpg";
 import About from "./About";
