@@ -10,7 +10,7 @@ function Interests({ interestTitle, interestDescription }: InterestsProps) {
   const { theme } = useTheme();
   return (
     <div>
-      <h3 className={theme.interestTitle}>{interestTitle}</h3>
+      <h4 className={theme.interestTitle}>{interestTitle}</h4>
       <p className={theme.interestDescription}>{interestDescription}</p>
     </div>
   );

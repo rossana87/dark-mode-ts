@@ -16,11 +16,11 @@ function Container() {
       <p className={theme.profession}>Junior Software Developer</p>
       <About
         aboutTitle="About me"
-        aboutDescription="My name is Rossana and I'm a career switcher and"
+        aboutDescription="My name is Rossana and I'm a career switcher. I work at Checkatrade and I feel very lucky to be surrounded by very supportive managers. I'm passionate about diversifying the world of tech and building things for the web. "
       />
       <Interests
         interestTitle="Interests"
-        interestDescription="When I'm not coding, you will find me knitting, sowing or reading"
+        interestDescription="In my free time, you'll find me practising Calisthenics. This is definitely my medicine for keeping myself healthy and happy. Committing to Calisthenics has helped me to build habits and consistency."
       />
       <Footer />
     </div>

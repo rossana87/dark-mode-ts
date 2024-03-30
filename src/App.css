@@ -1,7 +1,9 @@
 * {
   box-sizing: border-box;
   margin: 0 auto;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400, 500, 700;
 }
 
 .Container {
@@ -17,7 +19,7 @@
 }
 
 .Container-dark {
-  background-color: #0a0a0a;
+  background-color: #103669;
 }
 
 .Container-light {
@@ -66,7 +68,7 @@
 
 .button-dark {
   color: #589653;
-  background-color: #0a0a0a;
+  background-color: #103669;
   font-weight: bold;
   border: 2px solid #589653;
 }

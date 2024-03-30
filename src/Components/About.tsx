@@ -10,7 +10,7 @@ function About({ aboutTitle, aboutDescription }: AboutProps) {
   const { theme } = useTheme();
   return (
     <div>
-      <h3 className={theme.aboutHeader}>{aboutTitle}</h3>
+      <h4 className={theme.aboutHeader}>{aboutTitle}</h4>
       <p className={theme.aboutDescription}>{aboutDescription}</p>
     </div>
   );

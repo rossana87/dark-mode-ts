@@ -1,7 +1,7 @@
 import React from "react";
-import Container from "./Components/Container";
+import Container from "../Components/Container";
 import { render } from "@testing-library/react";
-import { ThemeProvider } from "./assets/context/Context";
+import { ThemeProvider } from "../assets/context/Context";
 
 describe("Container component", () => {
   it("should render Container as expected", () => {
