@@ -1,6 +1,5 @@
 import React from "react";
 import useTheme from "../assets/context/useTheme";
-import Image from "../assets/Profile-pic.jpg";
 import About from "./About";
 import Interests from "./Interests";
 import Footer from "./Footer";
@@ -11,7 +10,12 @@ function Container() {
   return (
     <div className={theme.container}>
       <h2 className={theme.h1}>Rossana Ventrella</h2>
-      <img className="image" src={Image} alt="Profile Picture" width={200} />
+      <img
+        className="image"
+        src="../assets/Profile-pic.jpg"
+        alt="Profile Picture"
+        width={200}
+      />
       <p className={theme.profession}>Junior Software Developer</p>
       <About
         aboutTitle="About me"
