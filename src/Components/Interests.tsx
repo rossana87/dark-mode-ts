@@ -1,4 +1,3 @@
-import React from "react";
 import useTheme from "../assets/context/useTheme";
 
 type InterestsProps = {
