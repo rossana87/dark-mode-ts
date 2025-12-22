@@ -1,3 +1,4 @@
+import React from "react";
 import useTheme from "../assets/context/useTheme";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

@@ -1,3 +1,4 @@
+import React from "react";
 import useTheme from "../assets/context/useTheme";
 import About from "./About";
 import Interests from "./Interests";
